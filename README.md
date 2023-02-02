@@ -1,29 +1,31 @@
-# FASHION CLASS CLASSIFICATION
+# Fashion MNIST Readme
+Fashion MNIST is a dataset of 60,000 28x28 grayscale images of 10 fashion categories, with 6,000 images per class. It was created as a more challenging alternative to the traditional MNIST dataset, which contains images of handwritten digits.
 
-# STEP #1: PROBLEM STATEMENT AND BUSINESS CASE
+# Categories
+The 10 fashion categories in the dataset are:
 
-Fashion training set consists of 70,000 images divided into 60,000 training and 10,000 testing samples. Dataset sample consists of 28x28 grayscale image, associated with a label from 10 classes.
+T-shirt/top
+Trouser
+Pullover
+Dress
+Coat
+Sandal
+Shirt
+Sneaker
+Bag
+Ankle boot
 
-The 10 classes are as follows:  
+# Data
+The images in the dataset are 28x28 grayscale, with pixel values ranging from 0 to 255. The labels are integers from 0 to 9, representing the respective fashion categories.
 
-0 => T-shirt/top
+# Usage
+Fashion MNIST can be used for various machine learning tasks, such as image classification, object detection, and segmentation. It is a popular dataset for testing machine learning algorithms and is often used as a benchmark for performance.
 
-1 => Trouser
+# Getting the Data
+Fashion MNIST is available in popular machine learning libraries such as TensorFlow and Keras, and can be easily loaded into your project. If you prefer to work with raw data, the dataset can also be downloaded from here.
 
-2 => Pullover
+# License
+Fashion MNIST is licensed under the MIT license.
 
-3 => Dress
-
-4 => Coat
-
-5 => Sandal
-
-6 => Shirt
-
-7 => Sneaker
-
-8 => Bag
-
-9 => Ankle boot
-
-Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255.
+# Conclusion
+Fashion MNIST is a valuable resource for machine learning practitioners and researchers. It provides a challenging yet accessible dataset for testing and evaluating algorithms, and can be used for a wide range of tasks.
